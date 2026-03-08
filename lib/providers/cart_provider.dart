@@ -60,7 +60,12 @@ class CartProvider extends ChangeNotifier {
     }
     notifyListeners();
   }
-
+// دالة إتمام الشراء وتفريغ السلة
+  Future<void> clearCart() async {
+    await _dbHelper.clearCart(); // 1. تفريغ الـ SQLite
+    _items.clear(); // 2. تفريغ الـ RAM
+    notifyListeners(); // 3. تحديث الـ UI ليظهر السلة فارغة
+  }
   // 5. حساب الإجمالي (Total Price Calculation)
   double get totalPrice {
     return _items.fold(0.0, (sum, item) => sum + (item.product.price * item.quantity));

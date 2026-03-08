@@ -1,20 +1,20 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: curly_braces_in_flow_control_structures, deprecated_member_use
 import 'package:flutter/material.dart';
 import 'package:marketoo/models/app_models.dart';
 import 'package:marketoo/providers/theme_provider.dart';
-import 'package:marketoo/providers/category_provider.dart'; // <--- كان ناقص
+import 'package:marketoo/providers/category_provider.dart'; 
 import 'package:marketoo/pages/product_details.dart';
 import 'package:provider/provider.dart';
 
-class FastFood extends StatefulWidget {
+class CategoryProductsPage extends StatefulWidget {
   final CategoryModel category;
-  const FastFood({super.key, required this.category});
+  const CategoryProductsPage({super.key, required this.category});
 
   @override
-  State<FastFood> createState() => _FastFoodState();
+  State<CategoryProductsPage> createState() => _CategoryProductsPageState();
 }
 
-class _FastFoodState extends State<FastFood> {
+class _CategoryProductsPageState extends State<CategoryProductsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -198,21 +198,33 @@ class _FastFoodState extends State<FastFood> {
                                   child: Image.network(
                                     product.image,
                                     fit: BoxFit.cover,
-                                    loadingBuilder: (context, child, loadingProgress) {
-                                      if (loadingProgress == null) return child;
-                                      return const Center(child: CircularProgressIndicator());
-                                    },
+                                    loadingBuilder:
+                                        (context, child, loadingProgress) {
+                                          if (loadingProgress == null)
+                                            return child;
+                                          return const Center(
+                                            child: CircularProgressIndicator(),
+                                          );
+                                        },
                                     errorBuilder: (context, error, stackTrace) {
                                       return Container(
                                         color: Colors.grey[300],
                                         child: Column(
-                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
                                           children: [
-                                            Icon(Icons.restaurant_menu, color: Colors.grey[600], size: 40),
+                                            Icon(
+                                              Icons.restaurant_menu,
+                                              color: Colors.grey[600],
+                                              size: 40,
+                                            ),
                                             const SizedBox(height: 5),
                                             Text(
                                               'Image not found',
-                                              style: TextStyle(color: Colors.grey[700], fontSize: 12),
+                                              style: TextStyle(
+                                                color: Colors.grey[700],
+                                                fontSize: 12,
+                                              ),
                                             ),
                                           ],
                                         ),

@@ -117,4 +117,9 @@ class DatabaseHelper {
     final db = await database;
     return await db.update('categories', category.toMap(), where: 'id = ?', whereArgs: [category.id]);
   }
+  // دالة تفريغ السلة بالكامل بعد الدفع
+  Future<void> clearCart() async {
+    final db = await database;
+    await db.delete('cart'); // هيمسح كل الـ Rows اللي في الجدول بدون ما يمسح الجدول نفسه
+  }
 }

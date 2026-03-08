@@ -4,7 +4,7 @@ import 'package:marketoo/models/app_models.dart'; // <--- كان ناقص
 import 'package:marketoo/providers/theme_provider.dart';
 import 'package:marketoo/providers/category_provider.dart'; // <--- كان ناقص
 import 'package:marketoo/pages/cart_page.dart';
-import 'package:marketoo/pages/fast_food.dart';
+import 'package:marketoo/pages/category_products_page.dart';
 import 'package:provider/provider.dart';
 
 class Home extends StatefulWidget {
@@ -128,7 +128,7 @@ class _HomeState extends State<Home> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) =>
-                                    FastFood(category: category),
+                                    CategoryProductsPage(category: category),
                               ),
                             );
                           },

@@ -30,7 +30,7 @@ class ShoppingApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: themeProvider.themeMode,
-      home: const SplashScreen(), // ضفت const هنا
+      home: const SplashScreen(), 
     );
   }
 }
