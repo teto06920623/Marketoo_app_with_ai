@@ -11,7 +11,7 @@ A robust E-commerce Flutter application built with a focus on clean architecture
       <br/><b>Splash Screen</b><br/>Custom initialization screen
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/c8d87609-bf26-4796-b250-9dc301e95b8a" width="220" />
+            <img src="https://github.com/user-attachments/assets/a6058abe-d635-48f3-a876-8fcfb6cd336d" width="220" />
       <br/><b>Home Page (Light)</b><br/>Dynamic category fetching
     </td>
     <td align="center">
@@ -29,7 +29,7 @@ A robust E-commerce Flutter application built with a focus on clean architecture
       <br/><b>Admin Controls</b><br/>In-app CRUD operations (Add/Edit)
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/a6058abe-d635-48f3-a876-8fcfb6cd336d" width="220" />
+            <img src="https://github.com/user-attachments/assets/c8d87609-bf26-4796-b250-9dc301e95b8a" width="220" />
       <br/><b>Dynamic Product Listing</b><br/>List view with dead-link protection
     </td>
   </tr>
