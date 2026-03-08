@@ -39,7 +39,7 @@ A robust E-commerce Flutter application built with a focus on clean architecture
       <br/><b>Admin Controls</b><br/>In-app CRUD operations (Add/Edit)
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/5eaee74f-1ac8-410f-952e-b7d8f638a1a9" width="220" />
+      <img src="https://github.com/user-attachments/assets/48ba1153-f164-4639-ad41-7fd517e29906" width="220"/>
       <br/><b>Secure Checkout Flow</b><br/>Receipt generation & safe clearing
     </td>
   </tr>
