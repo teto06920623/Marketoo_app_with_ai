@@ -7,7 +7,7 @@ A robust E-commerce Flutter application built with a focus on clean architecture
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/0261bc1a-a0bc-4398-8f9d-548816348804" width="220" />
+      <img src="https://github.com/user-attachments/assets/0d02e96f-f716-401d-9418-ae1e845509a7" width="220" />
       <br/><b>Splash Screen</b><br/>Custom initialization screen
     </td>
     <td align="center">
@@ -22,21 +22,21 @@ A robust E-commerce Flutter application built with a focus on clean architecture
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/7041fbd2-4d2a-4539-a1c4-3deb78cb4a03" width="220" />
-      <br/><b>Dynamic Product Listing</b><br/>Grid view with dead-link protection
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/558da2f0-abf8-45e5-975c-5fda6b669da5" width="220" />
       <br/><b>Product Details</b><br/>Product info & cart integration
     </td>
     <td align="center">
+      <img src="https://github.com/user-attachments/assets/558da2f0-abf8-45e5-975c-5fda6b669da5" width="220" />
+      <br/><b>Admin Controls</b><br/>In-app CRUD operations (Add/Edit)
+    </td>
+    <td align="center">
       <img src="https://github.com/user-attachments/assets/a6058abe-d635-48f3-a876-8fcfb6cd336d" width="220" />
-      <br/><b>Shopping Cart</b><br/>Persistent storage & quantity controls
+      <br/><b>Dynamic Product Listing</b><br/>List view with dead-link protection
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/8bf906c4-3688-422f-969f-1073b6bf1e95" width="220" />
-      <br/><b>Admin Controls</b><br/>In-app CRUD operations (Add/Edit)
+      <br/><b>Shopping Cart</b><br/>Persistent storage & quantity controls
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/48ba1153-f164-4639-ad41-7fd517e29906" width="220"/>
